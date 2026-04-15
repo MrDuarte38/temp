@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* flex container for left and right div */
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    border: blue 2px solid;
+}
+
+/* Left side (75%) */
+.left {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red 2px solid;
+    background-color: black;
+}
+
+/* Canvas */
+#myCanvas {
+    border: 1px solid #333;
+    background-color: rgb(232, 232, 173);
+}
+
+/* Right side (25%) */
+.right {
+    flex: 1;
+    padding: 30px;
+    border: orange 2px solid;
+}
+
+p {
+    line-height: 1.6;
+    white-space: pre-line;
+}
+
